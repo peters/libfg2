@@ -36,6 +36,7 @@
 //
 //==========================================================================
 
+
 #ifndef LIBFG2_H
 #define LIBFG2_H
 
@@ -601,13 +602,13 @@ typedef enum {
     FG_CONTROL_ID_AUTO_BRIGHTNESS        = V4L2_CID_AUTOBRIGHTNESS,
     FG_CONTROL_ID_BAND_STOP_FILTER       = V4L2_CID_BAND_STOP_FILTER,
     FG_CONTROL_ID_ROTATE                 = V4L2_CID_ROTATE,
-    FG_CONTROL_ID_BACKGROUND_COLOR       = V4L2_CID_BG_COLOR,
+    FG_CONTROL_ID_BACKGROUND_COLOR       = V4L2_CID_BG_COLOR
 } fg_control_id;
 
 typedef enum {
     FG_POWER_LINE_FREQUENCY_DISABLED    = 0,
     FG_POWER_LINE_FREQUENCY_50HZ        = 1,
-    FG_POWER_LINE_FREQUENCY_60HZ        = 2,
+    FG_POWER_LINE_FREQUENCY_60HZ        = 2
 } fg_power_line_freq;
 
 typedef enum {
@@ -620,7 +621,7 @@ typedef enum {
     FG_COLOR_EFFECTS_SKY_BLUE           = 6,
     FG_COLOR_EFFECTS_GRASS_GREEN        = 7,
     FG_COLOR_EFFECTS_SKIN_WHITEN        = 8,
-    FG_COLOR_EFFECTS_VIVID              = 9,
+    FG_COLOR_EFFECTS_VIVID              = 9
 } fg_color_effects;
 
 ///
