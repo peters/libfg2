@@ -12,7 +12,7 @@
     'libraries' : ['-lv4l1', '-ljpeg'],
     'cflags': ['-Wall', '-Wno-unused-parameter',
                '-fPIC', '-fno-strict-aliasing', '-fno-exceptions',
-               '-pedantic'],
+               '-pedantic', '-std=C99'],
     'sources': [
  	'src/libfg2.h',
 	'src/control.c',
