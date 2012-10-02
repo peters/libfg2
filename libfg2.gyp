@@ -11,8 +11,7 @@
     'defines' : ['WITH_LIBV4L=1', 'WITH_JPEG=1'],
     'libraries' : ['-lv4l1', '-ljpeg'],
     'cflags': ['-Wall', '-Wno-unused-parameter',
-               '-fPIC', '-fno-strict-aliasing', '-fno-exceptions',
-               '-pedantic'],
+               '-fPIC', '-fno-strict-aliasing', '-fno-exceptions'],
     'sources': [
  	'src/libfg2.h',
 	'src/control.c',
