@@ -1,4 +1,4 @@
-libfg2 - Simple Linux Video Capture Library
+7libfg2 - Simple Linux Video Capture Library
 ===========================================
 
 Introduction
@@ -55,10 +55,13 @@ You can compile the example using:
     $ gcc -o webcam-snapshot example.c -lfg2 -lv4l2 -ljpeg -Isrc
     $ ./webcam-snapshot /dev/video0
 
-Requirements (Ubuntu 12.04)
+Dependencies (Ubuntu 12.04)
 ---------------------------
-   
-    $ sudo apt-get install libv4l-dev libjpeg-dev
+
+* [LibV4L](http://people.atrpms.net/~hdegoede) - For better device support
+* [JPEG Library](http://ijg.org) - For saving frames to file
+	   
+    $ sudo apt-get install libv4l-dev libjpeg-dev gyp
 
 Running the test suite 
 
@@ -74,14 +77,6 @@ To checkout, build and install libfg2 you'll need to do the following:
     $ make
     $ cp libfg2.so /usr/local/lib
     $ sudo ldconfig
-
-Dependencies (Ubuntu 12.04)
-------------
-
-* [LibV4L](http://people.atrpms.net/~hdegoede) - For better device support
-* [JPEG Library](http://ijg.org) - For saving frames to file
-
-Other distributions should have equivalent packages available.
 
 LICENSE
 -------
