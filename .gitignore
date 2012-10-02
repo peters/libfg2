@@ -4,6 +4,8 @@
 
 # Build output
 build
+webcam-snapshot
+snapshot.jpg
 
 # Compiled
 *.o
