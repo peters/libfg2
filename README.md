@@ -80,4 +80,4 @@ LICENSE
 Libfg2 is licensed under the
 [GNU Lesser General Public License](http://www.gnu.org/copyleft/lesser.html),
 see the
-[COPYING file](https://github.com/peters/libfg2/blob/master/LICENSE).
+[LICENSE file](https://github.com/peters/libfg2/blob/master/LICENSE).
