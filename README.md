@@ -4,15 +4,13 @@
 Introduction
 ------------
 
+Created by Matthew Brush ([codebrainz/libfg2](https://github.com/codebrainz/libfg2)). The reason for the fork was to remove
+some unnecessary dependencies. The build system has also been replaced with gyp.
+
 Libfg2 is a C library which provides access to video input devices such as
 frame grabber cards, webcams, and TV tuner devices under kernels which support
 Video4Linux2.  Using the excellent libv4l library, libfg2 provides access to
 most devices, independent of which pixel formats they use.  
-
-The library began with me hacking on the libfg library to support the
-Video4Linux2 API.  I just started going through each function modifying each
-one to work with V4L2, renaming a few things along the way, and Libfg2 is the
-result.
 
 Example
 -------
