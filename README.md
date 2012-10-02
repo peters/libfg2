@@ -1,4 +1,4 @@
-7libfg2 - Simple Linux Video Capture Library
+libfg2 - Simple Linux Video Capture Library
 ===========================================
 
 Introduction
