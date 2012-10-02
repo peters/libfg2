@@ -75,11 +75,8 @@ To checkout, build and install libfg2 you'll need to do the following:
     $ cp libfg2.so /usr/local/lib
     $ sudo ldconfig
 
-Dependencies
+Dependencies (Ubuntu 12.04)
 ------------
-
-Libfg2 supports compiling with different dependencies, the defaults and
-recommended ones being:
 
 * [LibV4L](http://people.atrpms.net/~hdegoede) - For better device support
 * [JPEG Library](http://ijg.org) - For saving frames to file
