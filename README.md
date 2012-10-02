@@ -12,7 +12,7 @@ frame grabber cards, webcams, and TV tuner devices under kernels which support
 Video4Linux2.  Using the excellent libv4l library, libfg2 provides access to
 most devices, independent of which pixel formats they use.  
 
-Example
+Example (Snapshot from webcamera)
 -------
 
 Here's a minimal example of use:
