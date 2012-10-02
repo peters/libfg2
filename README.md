@@ -53,17 +53,16 @@ You can compile the example using:
     $ gcc -o webcam-snapshot example.c -lfg2 -lv4l2 -ljpeg -Isrc
     $ ./webcam-snapshot /dev/video0
 
-Dependencies (Ubuntu 12.04)
----------------------------
-
-* [LibV4L](http://people.atrpms.net/~hdegoede) - For better device support
-* [JPEG Library](http://ijg.org) - For saving frames to file
-	   
-    $ sudo apt-get install libv4l-dev libjpeg-dev gyp
-
 Running the test suite 
+----------------------
 
     $ make test
+
+
+Build dependencies (Ubuntu 12.04)
+---------------------------
+
+    $ sudo apt-get install libv4l-dev libjpeg-dev gyp
 
 Building and Installing (Ubuntu 12.04)
 -------------------------------------
