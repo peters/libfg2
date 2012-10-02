@@ -2,6 +2,9 @@
 # .gitignore for libfg2
 #
 
+# Build output
+build
+
 # Compiled
 *.o
 *.os
