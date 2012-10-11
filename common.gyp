@@ -8,7 +8,6 @@
   },
   'target_defaults': {
     'default_configuration': 'Debug',
-    'type' : 'shared_library',
     'configurations': {
       'Debug': {
         'cflags': [ '-g', '-O0' ],

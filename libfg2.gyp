@@ -3,7 +3,7 @@
 
   'targets': [{
     'target_name': 'libfg2',
-    'type': '<(library)',
+    'type': 'shared_library',
     'include_dirs': [
       'include',
       'src/'
