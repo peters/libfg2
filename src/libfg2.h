@@ -52,6 +52,15 @@ extern "C" {
 #include "libfg2-config.h"
 #endif
 
+/* Debian 6.0 missing defines */
+#ifndef V4L2_CID_ROTATE
+#define V4L2_CID_ROTATE (V4L2_CID_BASE+34)
+#endif
+
+#ifndef V4L2_CID_BG_COLOR
+#define V4L2_CID_BG_COLOR (V4L2_CID_BASE+35)
+#endif
+
 ///
 /// Standard/default device for fg_open().
 ///
